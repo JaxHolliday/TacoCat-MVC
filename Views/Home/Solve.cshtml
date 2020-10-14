@@ -1,0 +1,23 @@
+﻿
+
+
+
+<h1>I am the Solve View</h1>
+
+<form asp-action="Solve">    
+    <div class="row">
+        <div class="col">
+            <input type="text" name="theWord"/>
+        </div>
+        <div class="col">
+            <input type="text" name="anotherWord"/>
+        </div>
+        <div class="col"><button class="btn btn-secondary" type="submit" id="aButton">Push</button></div>
+    </div>    
+</form>
+<hr />
+<div class="row">
+    <div class="col">
+        <p>@ViewData["ReverseWord"]</p>        
+    </div>
+</div>
